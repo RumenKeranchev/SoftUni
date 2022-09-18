@@ -4,6 +4,15 @@ namespace _01_Intro_to_HTML_and_CSS.Controllers
 {
     public class HomeController : Controller
     {
+        public IActionResult Index()
+        {
+            return new ContentResult
+            {
+                Content = System.IO.File.ReadAllText("./Views/Home/Index.html"),
+                ContentType = "text/html"
+            };
+        }
+        
         public IActionResult Welcome()
         {
             return new ContentResult

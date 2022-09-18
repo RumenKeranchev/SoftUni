@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>01-Intro to HTML and CSS</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-ul">
+                <li class="nav-item"><a class="nav-link" href="/home/welcome"><span class="task-number">01.</span> Welcome</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/fruits"><span class="task-number">02.</span> Fruits</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/wiki"><span class="task-number">03.</span> Wiki Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/todo"><span class="task-number">04.</span> To Do List</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/lists"><span class="task-number">05.</span> HTML Lists</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/dls"><span class="task-number">06.</span> Definition Lists</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/rl"><span class="task-number">07.</span> Reversed List</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/js"><span class="task-number">08.</span> Modern JavaScript</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/book"><span class="task-number">09.</span> Book Story</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/news"><span class="task-number">10.</span> World Cup News</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2><em>Homework for <a href="https://softuni.bg/trainings/3855/html-and-css-september-2022">HTML & CSS - септември 2022</a></em></h2>
+        <p>All files for each task (HTML, CSS and images) are in folder <strong>"/Views/Home"</strong> in order to be zipped and submited for validation in Judge.</p>
+    </main>
+</body>
+</html>
+
+<style>
+    body {
+        margin-top: 0px;
+    }
+
+    nav {
+        background-color: darkslategrey;
+        padding: 10px;
+    }
+
+    .nav-ul {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .nav-item {
+        display: inline;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: cadetblue;
+        margin: 0px 3px;
+    }
+
+    .nav-link,
+    .nav-link:visited,
+    .nav-link:hover,
+    .nav-link:active {
+        text-decoration: none;
+        color: black;
+    }
+
+    .task-number {
+        font-weight: bold;
+    }
+
+    main {
+        text-align: center;
+    }
+</style>

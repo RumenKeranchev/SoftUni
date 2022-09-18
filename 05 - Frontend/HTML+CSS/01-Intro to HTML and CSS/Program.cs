@@ -7,7 +7,7 @@ var app = builder.Build();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Welcome}");
+    pattern: "{controller=Home}/{action=Index}");
 
 app.UseStaticFiles(new StaticFileOptions
 {
