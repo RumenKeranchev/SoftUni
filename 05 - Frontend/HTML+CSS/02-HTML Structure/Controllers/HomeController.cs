@@ -62,7 +62,7 @@ namespace _02_HTML_Structure.Controllers
         {
             return new ContentResult
             {
-                Content = System.IO.File.ReadAllText("./Views/Home/index.html"),
+                Content = System.IO.File.ReadAllText("./Views/Home/blog.html"),
                 ContentType = "text/html"
             };
         }
