@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Intro to HTML and CSS", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-HTML Structure", "05 - Frontend\HTML+CSS\02-HTML Structure\02-HTML Structure.csproj", "{4066DB80-BC4A-44F3-840A-9E74E3123173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-CSS and Typography", "05 - Frontend\HTML+CSS\03-CSS and Typography\03-CSS and Typography.csproj", "{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-CSS and Typography", "05 - Frontend\HTML+CSS\03-CSS and Typography\03-CSS and Typography.csproj", "{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-CSS Box Model", "05 - Frontend\HTML+CSS\CSS Box Model\04-CSS Box Model.csproj", "{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -357,6 +359,10 @@ Global
 		{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -428,6 +434,7 @@ Global
 		{77E6733C-A700-42F6-BC4D-025B7E6A7EFB} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 		{4066DB80-BC4A-44F3-840A-9E74E3123173} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 		{0D08BFD9-B571-48E0-A06E-0299CCE7FC23} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
+		{C51E71CE-07B9-4C4D-B5F1-B541443B8BE6} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D701B05-35F0-4D50-81DB-C59C64681E50}
