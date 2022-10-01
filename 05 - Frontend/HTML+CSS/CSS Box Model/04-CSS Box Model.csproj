@@ -7,4 +7,8 @@
     <RootNamespace>CSS_Box_Model</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Exercises\" />
+  </ItemGroup>
+
 </Project>
