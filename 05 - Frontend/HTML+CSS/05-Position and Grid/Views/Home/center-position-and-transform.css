@@ -1,0 +1,47 @@
+﻿body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px 3px rgba(0,0,0,0.5);
+    border-radius: 3px;
+}
+
+    .card div {
+        height: 50%;
+    }
+
+    .card h3 {
+        font-family: Georgia, serif;
+        font-size: calc(1em/1.2);
+    }
+
+    .card div:first-child {
+        position: relative;
+    }
+
+        .card div:first-child img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+    .card div:last-child {
+        padding: 20px;
+    }
+
+        .card div:last-child a {
+            padding: 10px 20px;
+            background-color: rgb(0,153,0);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            float: right;
+            margin-top: 25px;
+        }

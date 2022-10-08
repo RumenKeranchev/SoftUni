@@ -1,0 +1,111 @@
+﻿body {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    grid-template-areas:
+        "header header"
+        "main aside";
+    width: 50%;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    font-size: calc(1em/1.2);
+}
+
+body > header {
+    grid-area: header;
+    border-bottom: 3px solid black;
+}
+
+    body > header > p {
+        font-weight: bold;
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    body > header > nav {
+        display: inline-block;
+        margin-left: 400px;
+    }
+
+    body > header ul {
+        display: inline-block;
+        list-style: none;
+    }
+
+        body > header ul li {
+            display: inline-block;
+            margin: auto 10px;
+        }
+
+main > article {
+    margin-bottom: 50px;
+}
+
+.first {
+    float: right;
+    width: 110px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.last {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main > article:nth-child(2) p:nth-child(2) {
+    width: 45%;
+    display: inline-block;
+}
+
+main > article:nth-child(2) blockquote {
+    display: inline-block;
+    width: 45%;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    vertical-align: top;
+    border-left: 1px solid grey;
+    font-style: italic;
+    line-height: 25px;
+    font-family: Georgia, serif;
+}
+
+    main > article:nth-child(2) blockquote > p {
+        text-align: right;
+        font-style: normal;
+    }
