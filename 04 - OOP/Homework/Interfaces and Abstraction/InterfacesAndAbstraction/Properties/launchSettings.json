@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "InterfacesAndAbstraction": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53432;http://localhost:53433"
+    }
+  }
+}

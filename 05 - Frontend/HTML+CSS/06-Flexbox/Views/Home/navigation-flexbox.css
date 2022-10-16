@@ -1,0 +1,32 @@
+﻿body {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);
+    align-items: center;
+}
+
+    header div {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        header nav ul li {
+            list-style: none;
+            padding: 0px 15px;
+        }
+
+            header nav ul li a {
+                text-decoration: none;
+                color: rgb(0, 153, 0);
+            }

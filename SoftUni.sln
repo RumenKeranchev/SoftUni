@@ -143,9 +143,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-HTML Structure", "05 - F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-CSS and Typography", "05 - Frontend\HTML+CSS\03-CSS and Typography\03-CSS and Typography.csproj", "{0D08BFD9-B571-48E0-A06E-0299CCE7FC23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Position and Grid", "05 - Frontend\HTML+CSS\05-Position and Grid\05-Position and Grid.csproj", "{72C27F2C-FB94-4797-B27B-9E6D79025E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Position and Grid", "05 - Frontend\HTML+CSS\05-Position and Grid\05-Position and Grid.csproj", "{72C27F2C-FB94-4797-B27B-9E6D79025E51}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-CSS Box Model", "05 - Frontend\HTML+CSS\04-CSS Box Model\04-CSS Box Model.csproj", "{C798E0C8-59DB-4358-9E51-BFDA57CC171F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Flexbox", "05 - Frontend\HTML+CSS\06-Flexbox\06-Flexbox.csproj", "{D443EE5E-6E35-4211-8B3B-9173FF6E802F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +371,10 @@ Global
 		{C798E0C8-59DB-4358-9E51-BFDA57CC171F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C798E0C8-59DB-4358-9E51-BFDA57CC171F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C798E0C8-59DB-4358-9E51-BFDA57CC171F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D443EE5E-6E35-4211-8B3B-9173FF6E802F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D443EE5E-6E35-4211-8B3B-9173FF6E802F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D443EE5E-6E35-4211-8B3B-9173FF6E802F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D443EE5E-6E35-4211-8B3B-9173FF6E802F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -442,6 +448,7 @@ Global
 		{0D08BFD9-B571-48E0-A06E-0299CCE7FC23} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 		{72C27F2C-FB94-4797-B27B-9E6D79025E51} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 		{C798E0C8-59DB-4358-9E51-BFDA57CC171F} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
+		{D443EE5E-6E35-4211-8B3B-9173FF6E802F} = {7AF6BC2B-80C7-41F4-BB7A-69381179C6E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D701B05-35F0-4D50-81DB-C59C64681E50}

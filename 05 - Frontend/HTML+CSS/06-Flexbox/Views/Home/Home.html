@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>06. Flexbox</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-ul">
+                <li class="nav-item"><a class="nav-link" href="/home/flexboxLayout"><span class="task-number">01.</span> Flexbox Layout</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/flexModelArticles"><span class="task-number">02.</span> FlexModel Articles</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/abcGame"><span class="task-number">03.</span> ABC Game</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/calendar"><span class="task-number">04.</span> Calendar</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/navigationFlexbox"><span class="task-number">05.</span> Navigation Flexbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/photoGalleryFlexbox"><span class="task-number">06.</span> Photo Gallery - Flexbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/blogLayoutFlexbox"><span class="task-number">07.</span> Blog Layout - Flexbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/stickyFooterFlexbox"><span class="task-number">08.</span>Sticky Footer – Flexbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/centerFlexbox"><span class="task-number">09.</span>Center Flexbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/expandingFlexCards"><span class="task-number">10.</span>Expanding Flex Cards</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home/cards"><span class="task-number">11.</span>Cards with CSS Columns and Flexbox</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>06. Flexbox</h1>
+        <h2><em>Homework for <a href="https://softuni.bg/trainings/3855/html-and-css-september-2022">HTML & CSS - септември 2022</a></em></h2>
+        <p>All files for each task (HTML, CSS and images) are in folder <strong>"/Views/Home"</strong> in order to be zipped and submited for validation in Judge.</p>
+    </main>
+</body>
+</html>
+
+<style>
+    body {
+        margin: 0px;
+    }
+
+    nav {
+        background-color: yellow;
+        padding: 10px;
+    }
+
+    .nav-ul {
+        display: flex;
+        padding: 5px;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        list-style: none;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: greenyellow;
+        margin: 3px;
+    }
+
+    .nav-link,
+    .nav-link:visited,
+    .nav-link:hover,
+    .nav-link:active {
+        text-decoration: none;
+        color: black;
+    }
+
+    .task-number {
+        font-weight: bold;
+    }
+
+    main {
+        text-align: center;
+    }
+</style>
