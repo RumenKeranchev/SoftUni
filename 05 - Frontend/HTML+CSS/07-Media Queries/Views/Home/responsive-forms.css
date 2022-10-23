@@ -1,0 +1,94 @@
+﻿@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+
+*,
+*::after,
+*::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.shadow-border {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.35);
+    border: 1px solid rgba(91,91,91);
+    border-radius: 3px;
+}
+
+form fieldset {
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+
+    form fieldset legend {
+        padding: 10px;
+        width: 150px;
+        position: relative;
+        transform: translate(-22px, 0);
+        background-color: white;
+    }
+
+    form fieldset button {
+        background-color: #2D2D2D;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+
+    form fieldset .form-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        margin: 20px 0;
+    }
+
+        form fieldset .form-group label {
+            font-weight: bold;
+        }
+
+        form fieldset .form-group i {
+            position: relative;
+            left: 10%;
+        }
+
+        form fieldset .form-group input {
+            padding: 10px;
+            border: 1px solid #C5C5C5;
+            border-radius: 5px;
+            width: 70%
+        }
+
+@media (max-width: 768px) {
+    section {
+        width: 70%;
+    }
+
+    form fieldset .form-group {
+        display: block;
+    }
+
+        form fieldset .form-group label {
+            display: block;
+        }
+
+        form fieldset .form-group i {
+            position: absolute;
+            bottom: 20%;
+            left: 5%;
+        }
+
+        form fieldset .form-group input {
+            display: block;
+            width: calc(100% - 2 * 10px);
+        }
+}
