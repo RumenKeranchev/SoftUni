@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: unset;
+    }
+
+    .site-logos-container {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: unset;
+        justify-content: center;
+    }
+
+    .site-information, .site-posts, .site-footer {
+        flex-flow: column;
+    }
+
+    .site-footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-form, .site-blog-container {
+        margin-top: 0px;
+    }
+
+    .entry-description {
+        width: unset;
+    }
+
+    .entry-header-title {
+        font-size: 4rem;
+    }
+
+    .entry-header-description {
+        font-size: 1.5rem;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > p {
+        flex-flow: column;
+        align-items: stretch;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > button {
+        margin-left: unset;
+        display: inline;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > h2 {
+        font-size: 0.6rem;
+    }
+
+    .site-information-text, .site-blog-container {
+        text-align: center;
+        padding: 4rem 6rem;
+    }
+}

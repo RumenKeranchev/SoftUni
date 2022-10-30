@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Fitness Calculator</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="../Home/01/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <section>
+        <div><img src="../Home/01/img/calculator.png" alt="" /></div>
+        <div>
+            <form action="/" method="post">
+                <h2>FITNESS CALCULATOR</h2>
+                <div class="flex-group">
+                    <button id="usUnits">Standart units (US)</button>
+                    <button id="metricUnits">Metric units</button>
+                </div>
+                <p>Gender</p>
+                <div class="flex-group">
+                    <select>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="number" name="years" value="" placeholder="Years..." />
+                </div>
+                <p>Weight</p>
+                <div class="flex-group">
+                    <input type="number" name="weight" value="" placeholder="Pounds..." />
+                </div>
+                <p>Height</p>
+                <div class="flex-group">
+                    <input type="number" name="feet" value="" placeholder="Feet..." />
+                    <input type="number" name="inches" value="" placeholder="Inches..." />
+                </div>
+                <div class="flex-group">
+                    <button id="calculateBtn">Calculate</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

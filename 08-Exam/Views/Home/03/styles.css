@@ -1,0 +1,156 @@
+﻿@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "PT Sans", sans-serif;
+}
+
+header {
+    background-image: url("image/fitness-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    height: 700px;
+}
+
+    header #contacts ul {
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin: 0px;
+        padding: 0px 20px;
+        list-style: none;
+        align-items: center;
+    }
+
+        header #contacts ul li {
+            padding: 5px 10px;
+        }
+
+            header #contacts ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+    header nav ul {
+        text-align: right;
+        padding: 0 20px;
+    }
+
+        header nav ul li {
+            display: inline;
+            padding: 0px 40px;
+        }
+
+            header nav ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+    header #getStarted {
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+        header #getStarted h1 {
+            letter-spacing: 10px;
+            font-size: 4rem;
+        }
+
+        header #getStarted p {
+            width: 25%;
+            margin: 0px auto;
+            margin-bottom: 50px;
+        }
+
+        header #getStarted button {
+            padding: 8px 20px;
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+            border: none;
+            font-family: "PT Serif", sans-serif;
+            font-size: 1rem;
+        }
+
+.article-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+    .article-container > h2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+        .article-container > h2 > hr {
+            margin: 20px auto;
+            width: 60px;
+            border: 2px solid red;
+            border-radius: 20%;
+        }
+
+    .article-container .article-card {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 20%;
+        padding: 30px;
+    }
+
+        .article-container .article-card img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .article-container .article-card h3 {
+            color: red;
+        }
+
+        .article-container .article-card p {
+            text-align: center;
+        }
+
+
+    .article-container.coaches {
+        background-color: #EFEFEF;
+    }
+
+        .article-container.coaches .article-card img {
+            width: unset;
+            height: unset;
+        }
+
+        .article-container.coaches .article-card h3 {
+            color: unset;
+        }
+
+        .article-container.coaches .article-card p:nth-child(3) {
+            color: red;
+            font-weight: bold;
+        }
+
+        .article-container.coaches .article-card p:last-child {
+            color: #A6A1A5;
+            padding: 0px 30px;
+        }
+
+
+footer {
+    text-align: center;
+    background-color: #D01919;
+    margin: 0;
+    padding: 5px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
